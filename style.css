@@ -28,6 +28,10 @@ body{
 .search-box{
     position: relative;
 }
+.search-box:hover{
+    border: solid 4px salmon;
+    border-radius: 25px;
+}
 .search-btn {
     position: absolute;
     top: 0;
@@ -37,5 +41,8 @@ body{
 .single-result{
     background: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
+}
+#display-searched-result{
+    display: none;
 }
 
